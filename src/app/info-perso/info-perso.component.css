@@ -1,0 +1,199 @@
+p {
+  color: black !important;
+}
+/* === MAIN === */
+.section-padding {
+  padding: 120px 0 100px;
+}
+
+/* SECTION TITLE
+----------------------------------------------------- */
+.section-title {
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  color: #2c3e50;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  background: url(../../assets/img/separator1.png) no-repeat 0 0;
+  /*height: 15px;*/
+  width: 113px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -40px;
+  margin: 0 auto;
+}
+
+
+#homeTwo {
+  /*background: url(../images/home-2.jpg) no-repeat center center;*/
+  background-color: #222;
+  background-size: cover;
+  padding: 0;
+  position: relative;
+}
+
+
+/* === About Section === */
+.short-info {
+  margin-bottom: 40px;
+}
+
+.short-info h3 {
+  margin-bottom: 30px;
+}
+
+.hobby-list-wrap h3{
+  margin-bottom: 45px;
+}
+.hobby-list span {
+  border: 1px solid #eee;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-bottom: 3px double #eee;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+
+.hobby-list span:nth-child(4),
+.hobby-list span:nth-child(5),
+.hobby-list span:nth-child(6) {
+  margin-bottom: 0;
+}
+
+
+
+/*SERVICE SECTION*/
+.service-section {
+  background: url(../../assets/img/favicon.png) no-repeat center center;
+  background-size: cover;
+  padding:120px 0;
+}
+.service-section h2 {
+  color: #fff;
+}
+.service-wrap{
+  padding: 40px 0
+}
+.service-box {
+  text-align: center;
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+.service-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  border: 1px solid #fff;
+  width: 180px;
+  height: 180px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 15px;
+}
+.service-box i {
+  font-size: 40px;
+  color: #fff;
+  line-height: 100px;
+  z-index: 100;
+  position: relative;
+}
+.service-box h3 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  z-index: 100;
+  position: relative;
+}
+.service-box:hover.service-box::after{
+  background: #fff;
+  border: 1px solid transparent;
+}
+.service-box:hover i,
+.service-box:hover h3{
+  color: #2c3e50;
+}
+.service-box i,
+.service-box h3,
+.service-box::after {
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+}
+
+/*HOMEPAGE TWO*/
+#homeTwo{
+  position: relative;
+}
+
+#homeTwo:before {
+  content: "";
+  background-color: rgba(26, 30, 35, 0.90);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.home-version-two {
+  z-index: 0;
+  overflow: hidden;
+}
+.home-version-two::before{
+  z-index: -100;
+}
+
+.personal-info {
+  color: #fff;
+  padding:0 0 0 15px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+
+.personal-info h1 {
+  font-size: 60px;
+  line-height: 80px;
+  margin-bottom: 16px;
+}
+
+.personal-info h1 span{
+  color:#abbed2;
+}
+.personal-info p {
+  margin-bottom: 40px;
+}
+
+.video-introducing{
+ /* background: url(../images/video-bg.jpg) no-repeat center center;*/
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 390px;
+  border: 5px solid #FFF;
+  padding: 5px;
+  box-shadow: 0 0px 0px 1px #eee;
+}
+
+.btn-primary{
+  background: #3b5998;
+}

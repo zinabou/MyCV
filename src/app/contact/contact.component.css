@@ -17,7 +17,7 @@
 }
 
 .contact-form .form-send button {
-  background: #44bbaa;
+  background: #3b5998;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -26,7 +26,7 @@
 }
 
 .contact-form .form-send button:hover {
-  background: #23c8b1;
+  background: #abbed2;
 }
 
 .contact-form .validate {

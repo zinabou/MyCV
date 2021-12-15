@@ -10,6 +10,9 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import {HobiesComponent} from './hobies/hobies.component';
 import { SkilsComponent } from './skils/skils.component';
+import {RoutingAppModule} from './routing-app/routing-app.module';
+import { SyntheseComponent } from './synthese/synthese.component';
+
 
 @NgModule({
   declarations: [
@@ -21,10 +24,12 @@ import { SkilsComponent } from './skils/skils.component';
     HomeComponent,
     ContactComponent,
     HobiesComponent,
-    SkilsComponent
+    SkilsComponent,
+    SyntheseComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RoutingAppModule
   ],
   providers: [],
   bootstrap: [AppComponent]
