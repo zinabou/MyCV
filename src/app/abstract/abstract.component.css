@@ -3,12 +3,10 @@
   background: url(../../assets/fontEcrant1.png) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
-  color: #fff;
+  color: #ABBED2;
 }
-
-.tt-overlay-bg {
-  background: rgba(26, 30, 35, 0.85);
-  padding: 110px 0;
+p {
+  color: #ABBED2 !important;
 }
 
 .count-wrap i {

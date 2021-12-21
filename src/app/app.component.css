@@ -1,0 +1,13 @@
+.facts-section {
+  background: url(../assets/FD2.png) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.position-header {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

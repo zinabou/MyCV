@@ -1,31 +1,33 @@
-<nav class="navbar navbar-expand-lg navbar-light py-3 heder-color shadow-sm shadow p-3 bg-white rounded">
-  <div class="container">
-    <a class="navbar-brand" href="#">logo ou avatar</a>
+<nav class="navbar navbar-expand-lg navbar-light py-3 header-color shadow-sm shadow p-3 rounded tt-overlay-bg-home">
+  <div class="container ">
+    <a class=" navbar-brand" href="#">logo ou avatar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item active">
-          <a class="nav-link"  [routerLink]="['/home']"  routerLinkActive="active">Home</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#home">home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/about']"  routerLinkActive="active">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/parcourt']"  routerLinkActive="active">Parcourt</a>
+          <a class="nav-link" href="#parcours">Parcours</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/hobies']"  routerLinkActive="active">Passions</a>
+          <a class="nav-link"  href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  [routerLink]="['/contact']"  routerLinkActive="active">Contact</a>
+          <a class="nav-link" href="#hobies">Passions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  [routerLink]="['/skils']"  routerLinkActive="active">Skils</a>
+          <a class="nav-link"  href="#abstract">synthese</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<router-outlet></router-outlet>

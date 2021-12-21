@@ -1,3 +1,6 @@
+p{
+  color: #abbed2 !important ;
+}
 .site-footer
 {
   background-color:#26272b;
@@ -29,7 +32,7 @@
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color:#abbed2;
   text-decoration:none;
 }
 .footer-links
@@ -43,11 +46,11 @@
 }
 .footer-links a
 {
-  color:#737373
+  color:#abbed2
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color:#abbed2;
   text-decoration:none;
 }
 .footer-links.inline li
@@ -66,7 +69,7 @@
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#33353d
+  background-color:#abbed2
 }
 .copyright-text
 {
@@ -111,7 +114,7 @@
 }
 .social-icons a{
   background-color:#eceeef;
-  color:#818a91;
+  color:black;
   font-size:16px;
   display:inline-block;
   line-height:44px;

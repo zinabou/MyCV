@@ -1,17 +1,24 @@
 p {
   color: black !important;
 }
-p:hover {
-  color: white !important;
-}
 
 .text-home {
   color: darkslateblue !important;
+
 }
 body, nav, footer {
   font-family: "Lato" !important;
 }
 
+.tt-overlay-bg {
+  background: rgba(26, 30, 35, 0.85);
+  padding: 110px 0;
+}
+
+.tt-overlay-bg-home {
+  background:  rgba(171, 190, 210, 0.35);
+  padding: 110px 0;
+}
 
 #section-topbar {
   position: fixed;
@@ -67,4 +74,10 @@ body, nav, footer {
   right: 0;
   bottom: -40px;
   margin: 0 auto;
+}
+
+
+.btn-primary {
+  background: #abbed2 !important;
+  border-color: #abbed2;
 }

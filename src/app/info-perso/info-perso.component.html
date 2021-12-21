@@ -7,45 +7,35 @@
       <div class="col-md-4 col-md-push-8">
         <div class="biography">
           <div class="myphoto">
-            <img class="w-75" src="assets/mon_avatar.png" alt="Pierre Hourlier Chef de projet fonctionnel Lille">
           </div>
+          <img class="w-75" src="assets/mon_avatar.png">
           <ul>
-            <li><strong>Nom :</strong> Pierre Hourlier</li>
-            <li><strong>Âge :</strong> 29 ans</li>
-            <li><strong>Nationalité :</strong> Française </li>
-            <li><strong>Lieu d'activité : </strong> Métropole Lilloise</li>
-            <li><strong>Email:</strong> phourlier@atecna.fr</li>
+            <li><strong>Nom :</strong> {{data.firstName}}</li>
+            <li><strong>Âge :</strong> {{data.age}}</li>
+            <li><strong>Lieu d'activité : </strong>{{data.lieuDactivite}}</li>
+            <li><strong>Email:</strong>{{data.email}}</li>
           </ul>
         </div>
       </div> <!-- col-md-4 -->
 
       <div class="col-md-8 col-md-pull-4">
         <div class="short-info wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-          <h3>Mes objectifs : </h3>
-          <p>Mon objectif est de répondre aux besoins client, en proposant un livrable de qualité dans les délais impartis et
-            respectant le budget défini au préalable. Je consolide actuellement mes connaissances en méthodologie de gestion de
-            projet (Cascade, Scrum, Kanban) que j’applique en fonction du besoin et de l’équipe projet.</p>
-        </div>
-
-        <div class="short-info wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-          <h3>Mon parcours :</h3>
-          <p>J’ai découvert que je possédais une véritable appétence pour le monde du digital lors de la création de mon tout premier
-            site e-commerce en 2011.
+          <h3>Description Synthètique</h3>
+          <p>{{data.presentationGeneral}}
             <br>
-            J’ai par la suite décidé d’approfondir mes connaissances en Webmarketing (stratégie e-commerce, génération de trafic et analyse de la performance)
-            et en technique (HTML, CSS, Javascript, PHP) en intégrant le Master Digital Commerce de l’Université Catholique de Lille. <br>
-            Je me suis initié au métier de chef de projet AMOA au sein de l’équipe Auchan Retail durant une année (périmètre checkout auchan.fr).
-            J'ai ensuite mis à contribution mon expértise pour optimiser la déscente produit du site nocibe.fr, puis chez Leroy Merlin en tant que Responsable moteur de recherche interne (leroymerlin.fr).
-            J'ai par la suite travaillé durant 14 mois, en tant que Product Owner, sur la création d'une Progressive Web App chez ADEO Services.</p>
-          <br>
+           </p>
+          <p>{{data.presentaionSuite}}
+            <br>
+          </p>
+          <p>{{data.presentation}}
+            <br>
+          </p>
           <h3> Mes PRINCIPAUX ATOUTS : </h3>
           <ul class="list-check">
-            <li>Démarche Agile</li>
-            <li>Facilité d’adaptation</li>
-            <li>Vision 360° des besoins métiers</li>
-            <li>Fort attrait pour l’UX</li>
-            <li>Conception (zoning, wireframe, prototype) </li>
-            <li>Appétence forte des outils analytiques</li>
+            <li>{{data.principauxAtouts1}}</li>
+            <li>{{data.principauxAtouts2}}</li>
+            <li>{{data.principauxAtouts3}}</li>
+            <li>{{data.principauxAtouts4}}</li>
           </ul>
         </div>
 
@@ -58,8 +48,6 @@
           <a class="btn btn-primary btn-lg" href="assets/images/Atecna_Pierre_Hourlier_Avril_2019.pdf"><i class="fa fa-download"></i>Télécharger mon CV</a>
         </div>
       </div>
-
-
     </div> <!-- /.row -->
   </div> <!-- /.container -->
 </section>

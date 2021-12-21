@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {HeaderData} from './header-data.model';
+import {HEADER_DATA} from './header.data';
+
 
 @Component({
   selector: 'app-home',
@@ -6,14 +9,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  firstName: string;
-  TitlePoste: string;
-  TechnoPoste: string;
+  data: HeaderData = HEADER_DATA;
 
   constructor() {
-    this.firstName = 'Zina Boukercha';
-    this.TitlePoste = 'Ingénieur FullStack';
-    this.TechnoPoste = 'Spring / Angular';
   }
 
   ngOnInit(): void {

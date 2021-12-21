@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -9,9 +9,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import {HobiesComponent} from './hobies/hobies.component';
-import { SkilsComponent } from './skils/skils.component';
-import {RoutingAppModule} from './routing-app/routing-app.module';
-import { SyntheseComponent } from './synthese/synthese.component';
+import { SkillsComponent } from './skills/skills.component';
+import { AbstractComponent } from './abstract/abstract.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -24,12 +24,12 @@ import { SyntheseComponent } from './synthese/synthese.component';
     HomeComponent,
     ContactComponent,
     HobiesComponent,
-    SkilsComponent,
-    SyntheseComponent
+    SkillsComponent,
+    AbstractComponent
   ],
   imports: [
     BrowserModule,
-    RoutingAppModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

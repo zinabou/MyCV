@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-synthese',
-  templateUrl: './synthese.component.html',
-  styleUrls: ['./synthese.component.css']
+  templateUrl: './abstract.component.html',
+  styleUrls: ['./abstract.component.css']
 })
-export class SyntheseComponent implements OnInit {
+export class AbstractComponent implements OnInit {
 
   constructor() { }
 
