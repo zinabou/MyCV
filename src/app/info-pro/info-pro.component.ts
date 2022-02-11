@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {ProData} from "./pro-data.model";
-import {PRO_DATA} from "./pro.data";
+import {Mission, } from "./mission.model";
+import {MISISONS} from "./mission.data";
 
 @Component({
   selector: 'app-info-pro',
@@ -8,7 +8,7 @@ import {PRO_DATA} from "./pro.data";
   styleUrls: ['./info-pro.component.css']
 })
 export class InfoProComponent implements OnInit {
-  data: ProData = PRO_DATA;
+  data: Mission = MISISONS[''];
 
   constructor() { }
   ngOnInit(): void {
