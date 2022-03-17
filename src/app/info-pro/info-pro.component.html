@@ -32,12 +32,18 @@
                     <p class="text-start fw-bold"> </p>
                     <div>
                         <ul class="text-start">
-                          <li>descrition </li>
+                          <li>{{data.descMissionFrontJcdecaux}}</li>
+                          <li>{{data.descMissionFront1Jcdecaux}} </li>
+                          <li>{{data.descMissionFront2Jcdecaux}}</li>
+                          <li>{{data.descMissionFront3Jcdecaux}} </li>
+                          <li>{{data.descMissionFront4Jcdecaux}} </li>
+                          <li>{{data.descMissionFront5Jcdecaux}}</li>
                         </ul>
                     </div>
-                    <p class="text-start fw-bold"> </p>
+                    <p class="text-start fw-bold">{{data.descMissionBackEnd}} </p>
                     <ul class="text-start">
-                      <li>description</li>
+                      <li>{{data.descMissionBack1Jcdecaux}}</li>
+                      <li>{{data.descMissionBack2Jcdecaux}} </li>
                     </ul>
                   </div><!-- /timeline-body -->
                 </div> <!-- /timeline-content -->
@@ -47,14 +53,14 @@
             </li>
             <li class="timeline-inverted">
               <div class="posted-date">
-                <span class="month">date</span>
+                <span class="month">{{data.dateTakimaSynapse}}</span>
               </div><!-- /posted-date -->
 
               <div class="timeline-panel wow fadeInUp animated accordion accordion-flush" id="accordionFlushExample2" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="timeline-content">
                   <div class="timeline-heading">
-                    <h3>job</h3>
-                    <span>name</span>
+                    <h3>{{data.titreTakimaSynapse}}</h3>
+                    <span>{{data.nomTakimaSynapse}}</span>
                   </div><!-- /timeline-heading -->
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne2">
@@ -63,17 +69,17 @@
                        </button>
                     </h2>
                   <div class="timeline-body accordion-collapse collapse" id="flush-collapseOne2">
-                    <p>description</p>
+                    <p>{{data.descMissionTakimaSynapse}}/p>
                     <p class="text-start fw-bold">Description de mes tâches:</p>
-                    <p class="text-start fw-bold">description</p>
+                    <p class="text-start fw-bold">{{data.descMissionFrontEnd}} </p>
                     <div>
                       <ul class="text-start">
-                        <li>description</li>
+                        <li>{{data.descMissionFront1TakimaSynapse}}</li>
                       </ul>
                     </div>
-                    <p class="text-start fw-bold">description</p>
+                    <p class="text-start fw-bold">{{data.descMissionBackEnd}} </p>
                     <ul class="text-start">
-                      <li>description/li>
+                      <li>{{data.descMissionBack1TakimaSynapse}}</li>
                     </ul>
                   </div><!-- /timeline-body -->
                 </div> <!-- /timeline-content -->
@@ -84,14 +90,14 @@
             <li>
             <!--Swisslife-->
               <div class="posted-date">
-                <span class="month">date</span>
+                <span class="month">{{data.dateSwisslife}}</span>
               </div><!-- /posted-date -->
 
               <div class="timeline-panel wow fadeInUp animated accordion accordion-flush" id="accordionFlushExample3" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="timeline-content">
                   <div class="timeline-heading">
-                    <h3>name</h3>
-                    <span>titre</span>
+                    <h3>{{data.nomSwisslife}} </h3>
+                    <span>{{data.titreSwisslife}} </span>
                   </div><!-- /timeline-heading -->
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne3">
@@ -100,11 +106,17 @@
                       </button>
                     </h2>
                   <div class="timeline-body accordion-collapse collapse" id="flush-collapseOne3">
-                    <p class="text-start">decription </p>
+                    <p class="text-start">{{data.descMissionFrontEnd}} </p>
                     <p class="text-start fw-bold">Description de mes tâches:</p>
+                    <p class="text-start">{{data.descMissionSwisslife}} </p>
+                    <p class="text-start">{{data.descMissionSwisslife1}} </p>
+                    <p class="text-start">{{data.descMissionSwisslife2}} </p>
+                    <p class="text-start fw-bold">{{data.descMissionSwisslife2}} </p>
                     <div>
                       <ul class="text-start">
-                        <li>description</li>
+                        <li>{{data.descMissionFront1Swisslife1}}</li>
+                        <li>{{data.descMissionFront1Swisslife2}} </li>
+                        <li>{{data.descMissionFront1Swisslife3}}</li>
                       </ul>
                     </div>
                   </div><!-- /timeline-body -->
@@ -115,14 +127,14 @@
             <!--weka-->
             <li class="timeline-inverted">
               <div class="posted-date">
-                <span class="month">date</span>
+                <span class="month">{{data.dateWeka}}</span>
               </div><!-- /posted-date -->
 
               <div class="timeline-panel wow fadeInUp animated accordion accordion-flush" id="accordionFlushExample4" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="timeline-content">
                   <div class="timeline-heading">
-                    <h3>name</h3>
-                    <span>job</span>
+                    <h3>{{data.nomWeka}}</h3>
+                    <span>{{data.titreWeka}}</span>
                   </div><!-- /timeline-heading -->
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne4">
@@ -132,21 +144,29 @@
                     </h2>
                   <div class="timeline-body accordion-collapse collapse" id="flush-collapseOne4">
                     <p class="text-start fw-bold">Contexte client</p>
-                    <p>context</p>
+                    <p>{{data.descWeka}}</p>
                     <ul class="text-start">
-                      <li>context</li>
+                      <li>{{data.descWeka1}}</li>
+                      <li>{{data.descWeka2}}</li>
                     </ul>
                     <p class="text-start fw-bold">Description de mes tâches:</p>
                     <div>
-                      <p class="text-start fw-bold">description </p>
+                      <p class="text-start fw-bold">{{data.descMissionDevops}} </p>
                       <ul class="text-start">
-                        <li>description </li>
+                        <li>{{data.descMissionFront1Swisslife1}}</li>
+                        <li>{{data.descMissionFront1Swisslife2}} </li>
+                        <li>{{data.descMissionFront1Swisslife3}}</li>
                       </ul>
                     </div>
                     <div>
-                      <p class="text-start fw-bold">description </p>
+                      <p class="text-start fw-bold">{{data.descMissionBackEnd}} </p>
                       <ul class="text-start">
-                        <li>description</li>
+                        <li>{{data.descMissionBack1Weka}}</li>
+                        <li>{{data.descMissionBack2Weka}} </li>
+                        <li>{{data.descMissionBack3Weka}}</li>
+                        <li>{{data.descMissionBack4Weka}}</li>
+                        <li>{{data.descMissionBack5Weka}}</li>
+                        <li>{{data.descMissionBack6Weka}}</li>
                       </ul>
                     </div>
 
@@ -158,13 +178,13 @@
 
             <li>
               <div class="posted-date">
-                <span class="month">Date</span>
+                <span class="month">{{data.dateFDJ}}</span>
               </div><!-- /posted-date -->
 
               <div class="timeline-panel wow fadeInUp animated accordion accordion-flush" id="accordionFlushExample5" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="timeline-content">
                   <div class="timeline-heading">
-                    <h3>nom -titre</h3>
+                    <h3>{{data.nomFDJ}} - {{data.titreFDJ}}</h3>
                     <span>Alternance (12 mois)</span>
                   </div><!-- /timeline-heading -->
                   <div class="accordion-item">
